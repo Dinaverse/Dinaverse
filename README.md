@@ -1,23 +1,35 @@
-# 👋 Hi, I'm Dina
+# 🚩 Dinaverse - CTF Documentation
 
-I am a System & Infrastructure Engineer with a decade of self-taught experience, specializing in building sovereign, distributed, and resilient systems. My approach is rooted in the hacker spirit: I believe in mastering the full tech stack, from the metal up to autonomous AI agents, by repurposing hardware rather than relying on public cloud solutions.
+Welcome to the **Dinaverse** CTF repository. This project is a dedicated collection of writeups, methodologies, and technical analyses from various Capture The Flag (CTF) platforms, primarily focusing on **Root-Me PRO**.
 
-## 🏗️ My Distributed Laboratory
-I have architected and deployed a multi-node distributed infrastructure:
-- **Arch Cluster (AI Compute):** 4x NVIDIA GPU cluster optimized for local LLM inference (Qwen 3.5:27B).
-- **Dell Precision (Orchestrator):** High-performance gateway and development station (32GB RAM).
-- **Kali Station (Security):** Dedicated offensive security environment natively hosting a comprehensive security toolkit.
+## 🎯 Repository Purpose
+The goal of this repository is to:
+1.  **Document Progress:** Track my growth in offensive and defensive security through structured challenges.
+2.  **Formalize Methodologies:** Refine the steps taken to solve complex security problems without leaking flags.
+3.  **Knowledge Sharing:** Provide a clean, organized reference for security concepts and exploitation techniques.
 
-## 🛠️ Expertise & Technical Focus
-My work bridges the gap between field-proven engineering and academic rigor:
-- **Hardware Repurposing:** Expert in optimizing retired enterprise and mining hardware for AI/ML workloads.
-- **System Engineering:** Deep optimization of Linux kernels, complex NVIDIA driver configurations, and persistent systemd service management.
-- **Automation & IaC:** Delivering reproducible infrastructure using Infrastructure-as-Code principles.
-- **Security:** Native integration of offensive security tools and sovereign AI workflows.
+## 📂 Current Progress
 
-Currently formalizing my extensive field experience through formal college education.
+### [Root-Me PRO: Discovery Program](./ctf-root-me/challenges/)
+- **Programming:** 4/4 Challenges Completed
+- **Network:** 3/3 Challenges Completed
+- **Web Client:** 4/4 Challenges Completed
+- **Web Server:** 4/4 Challenges Completed
+- **Cryptography:** 3/3 Challenges Completed
+- **Steganography:** 3/3 Challenges Completed
+
+### [Root-Me PRO: CTF Training](./ctf-root-me/challenges/)
+- **Easy:** 15/15 Challenges Completed
+- **Medium:** 8/14 Challenges Completed (Documentation in progress)
+
+## 🏗️ Structure
+```text
+ctf-root-me/
+└── challenges/
+    ├── ctf-training-easy/      # Easy training module writeups
+    ├── ctf-training-medium/    # Medium training module writeups
+    └── [Category]/             # Discovery Program categories
+```
 
 ---
-*Always building, breaking, fixing, and documenting.*
-EOF
-,file_path:
+*Building expertise through continuous challenge and documentation.*
