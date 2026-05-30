@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Dinaverse
+# 👋 Hi, I'm Dina
 
 I am a System & Infrastructure Engineer with a decade of self-taught experience, specializing in building sovereign, distributed, and resilient systems. My approach is rooted in the hacker spirit: I believe in mastering the full tech stack, from the metal up to autonomous AI agents, by repurposing hardware rather than relying on public cloud solutions.
 
