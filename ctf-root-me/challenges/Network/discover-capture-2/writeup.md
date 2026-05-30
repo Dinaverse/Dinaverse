@@ -1,16 +1,25 @@
-# Challenge: [Challenge Name]
+# Challenge: Discover - Capture 2
 
 ## Overview
 - **Category:** Network
-- **Points:** [Points]
-- **Difficulty:** [Difficulty]
+- **Points:** 40
+- **Difficulty:** Hard
 - **Status:** Validated
 
 ## Description
-[Brief description of the challenge]
+This challenge involves analyzing a network capture containing numerous HTTP requests. The objective is to identify a hidden pattern within the traffic.
 
 ## Solution
-[Explain the steps taken to solve the challenge]
+1. Upon analyzing the network capture, notice that a series of HTTP `GET` requests are made to different URL paths.
+2. Isolate the path component from each `GET` request.
+3. Observe that these paths represent individual characters.
+4. Note that some characters are URL-encoded (e.g., `%7B`, `%3C`). Decode them:
+   - `%7B` = `{`
+   - `%7D` = `}`
+   - `%3C` = `<`
+5. Concatenate the decoded characters in order to reconstruct the flag.
+
+*Screenshot Reference: Screenshot_20260529_231119.png*
 
 ## Conclusion
-[What was learned]
+Learned how to extract information hidden within the URL paths of HTTP traffic and the importance of recognizing URL encoding when performing network forensics.
