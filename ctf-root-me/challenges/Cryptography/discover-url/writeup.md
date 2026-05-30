@@ -1,16 +1,22 @@
-# Challenge: [Challenge Name]
+# Challenge: Discover - URL
 
 ## Overview
 - **Category:** Cryptography
-- **Points:** [Points]
-- **Difficulty:** [Difficulty]
+- **Points:** 20
+- **Difficulty:** Easy
 - **Status:** Validated
 
 ## Description
-[Brief description of the challenge]
+Lorem ipsum secrets.
 
 ## Solution
-[Explain the steps taken to solve the challenge]
+1. Understand that the HTTP protocol uses URL encoding (percent-encoding) to represent special characters in URLs using their hexadecimal values.
+2. Analyze the provided file, which contains a large amount of "Lorem Ipsum" placeholder text along with URL-encoded characters.
+3. Use a tool like **CyberChef** (using the "URL Decode" operation) or an online decoder to convert the encoded characters into plaintext.
+4. Search through the decoded "Lorem Ipsum" text to locate the flag.
 
 ## Conclusion
-[What was learned]
+Learned how to recognize and decode URL encoding, demonstrating how sensitive information can be hidden within large amounts of unrelated text using simple encoding schemes.
+
+## Flag
+[REDACTED]
