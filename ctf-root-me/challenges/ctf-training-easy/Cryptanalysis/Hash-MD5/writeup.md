@@ -1,16 +1,18 @@
-# Challenge: [Challenge Name]
+# Challenge: Hash - MD5
 
 ## Overview
-- **Category:** CTF Training - Easy / [Module]
-- **Points:** [Points]
-- **Difficulty:** [Difficulty]
+- **Category:** CTF Training - Easy / Cryptanalysis
+- **Points:** 50
+- **Difficulty:** Very easy
 - **Status:** Validated
 
 ## Description
-[Brief description of the challenge]
+Crack an MD5 hash.
 
 ## Solution
-[Explain the steps taken to solve the challenge]
+1. Identify the hash algorithm as MD5.
+2. Use a password cracking tool like Hashcat (`-m 0`) or John the Ripper.
+3. Perform a dictionary attack using a standard wordlist (e.g., `rockyou.txt`) to find the corresponding plaintext.
 
 ## Conclusion
-[What was learned]
+Reinforced the understanding that MD5 is insecure due to its susceptibility to fast dictionary and brute-force attacks.

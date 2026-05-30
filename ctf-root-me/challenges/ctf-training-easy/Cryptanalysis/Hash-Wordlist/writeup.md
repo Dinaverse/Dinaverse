@@ -1,16 +1,17 @@
-# Challenge: [Challenge Name]
+# Challenge: Hash - Wordlist
 
 ## Overview
-- **Category:** CTF Training - Easy / [Module]
-- **Points:** [Points]
-- **Difficulty:** [Difficulty]
+- **Category:** CTF Training - Easy / Cryptanalysis
+- **Points:** 50
+- **Difficulty:** Very easy
 - **Status:** Validated
 
 ## Description
-[Brief description of the challenge]
+Crack a hash using a provided list of potential flags.
 
 ## Solution
-[Explain the steps taken to solve the challenge]
+1. Detect the hash algorithm (SHA-256 via auto-detection).
+2. Perform a dictionary attack using Hashcat (`-m 1400`) against the provided list of potential flags (`flags.txt`) to find the matching plaintext.
 
 ## Conclusion
-[What was learned]
+Learned the basic process of dictionary attacks to crack hashes when a list of potential candidates is available.
