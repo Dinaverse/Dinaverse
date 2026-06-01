@@ -10,13 +10,17 @@
 Investigate unusual DNS queries to detect potential data exfiltration.
 
 ## Solution
-1. **Initial Investigation:** Analyze network traffic (likely using Wireshark, Zeek, or ELK) to investigate reported unusual, encrypted-looking DNS queries.
-2. **DNS Traffic Analysis:** Examine DNS query patterns and volumes from specific hosts. Look for non-standard DNS query names (e.g., long, randomized strings or unusual domains) that indicate exfiltration rather than standard resolution.
-3. **Log/Packet Inspection:** Inspect the payload of these DNS queries. Exfiltration via DNS often involves encoding data (e.g., Base64 or Base32) directly within the DNS request subdomain (e.g., `<encoded_data>.attacker.com`).
-4. **Data Reconstruction:** Extract the encoded strings from the DNS queries, reassemble the data stream, and decode it to reveal the exfiltrated sensitive content, including the flag.
+1. **Log Analysis:** Filtered DNS logs in Kibana to show only queries that received a valid answer, reducing noise from fake queries.
+2. **Anomalous Domain Discovery:** Identified suspicious domains frequently queried, specifically `oastify.com` and `git-claude.fr`.
+3. **Information Gathering:** Analyzed the `git-claude.fr` traffic, revealing queries related to AES-CBC configuration parameters, which provided the key and IV for decryption.
+4. **Data Identification:** Filtered for long DNS query strings (longer than 60 characters) targeting `oastify.com` to isolate the exfiltrated ciphertext.
+5. **Decryption:**
+   - Collected the observed ciphertext segments.
+   - Utilized a Python script with `pycryptodome` (AES-CBC) and the discovered parameters to decrypt the data.
+   - Performed PKCS7 unpadding to reveal the final flag.
 
 ## Conclusion
-Learned how DNS protocol can be abused as a covert channel for data exfiltration. This emphasizes the importance of monitoring DNS traffic for unusual patterns, such as high-volume or anomalous query strings, as a key component of network-based threat detection.
+Learned that DNS exfiltration often involves data being encrypted or encoded and smuggled within DNS query subdomains. Effective detection requires filtering for successful queries, analyzing anomalous domain traffic, identifying configuration parameters (like AES keys) within traffic, and reassembling/decrypting the exfiltrated data.
 
 ## Flag
 [REDACTED]
