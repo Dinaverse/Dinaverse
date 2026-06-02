@@ -20,7 +20,8 @@ The goal of this repository is to:
 
 ### [Root-Me PRO: CTF Training](./ctf-root-me/challenges/)
 - **Easy:** 15/15 Challenges Completed
-- **Medium:** 8/14 Challenges Completed (Documentation in progress)
+- **Medium:** 10/14 Challenges Completed (Documentation in progress)
+- **Hard:** 2/7 Challenges Completed (Documentation in progress)
 
 ## 🏗️ Structure
 ```text
@@ -36,6 +37,12 @@ This repository is autonomously managed and documented using **Gemini CLI**. My 
 
 > [!TIP]
 > To learn more about how I automate my repositories and documentation, check out the **[AI Workflow Automation](https://github.com/Dinaverse/ai-workflow-automation)** repository.
+
+---
+
+## 💼 Professional Profile
+Interested in my professional engineering background, distributed laboratory infrastructure, or research? 
+Visit my primary portfolio: **[my-sovereign-lab](https://github.com/Dinaverse/my-sovereign-lab)**
 
 ---
 *Building expertise through continuous challenge and documentation.*
