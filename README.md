@@ -1,3 +1,9 @@
+# 👋 Hi, I'm Dina
+
+I am a System & Infrastructure Engineer with a decade of self-taught experience, specializing in building sovereign, distributed, and resilient systems. My approach is rooted in the hacker spirit: I believe in mastering the full tech stack, from the metal up to autonomous AI agents, by repurposing hardware rather than relying on public cloud solutions.
+
+---
+
 # 🚩 Dinaverse - CTF Documentation
 
 Welcome to the **Dinaverse** CTF repository. This project is a dedicated collection of writeups, methodologies, and technical analyses from various Capture The Flag (CTF) platforms, primarily focusing on **Root-Me PRO**.
@@ -37,12 +43,6 @@ This repository is autonomously managed and documented using **Gemini CLI**. My 
 
 > [!TIP]
 > To learn more about how I automate my repositories and documentation, check out the **[AI Workflow Automation](https://github.com/Dinaverse/ai-workflow-automation)** repository.
-
----
-
-## 💼 Professional Profile
-Interested in my professional engineering background, distributed laboratory infrastructure, or research? 
-Visit my primary portfolio: **[my-sovereign-lab](https://github.com/Dinaverse/my-sovereign-lab)**
 
 ---
 *Building expertise through continuous challenge and documentation.*
