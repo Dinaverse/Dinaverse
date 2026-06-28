@@ -1,9 +1,9 @@
 # 👋 Hi, I'm Dina
 
-I am a System & Infrastructure Engineer with a decade of self-taught experience, specializing in building sovereign, distributed, and resilient systems. My approach is rooted in the hacker spirit: I believe in mastering the full tech stack, from the metal up to autonomous AI agents, by repurposing hardware rather than relying on public cloud solutions.
+Driven by a decade of passion for self-directed engineering, combining hands-on technical exploration with formal infrastructure training, I specialize in building sovereign, distributed, and resilient systems. My approach is rooted in the hacker spirit: I believe in mastering the full tech stack, from the metal up to autonomous AI agents, by repurposing hardware rather than relying on public cloud solutions.
 
 ## 🏗️ Technical Expertise
-- **Hardware Repurposing:** Expert in optimizing retired enterprise and mining hardware for AI/ML workloads.
+- **Hardware Repurposing:** Specialized in optimizing retired enterprise and mining hardware for AI/ML workloads.
 - **System Engineering:** Deep optimization of Linux kernels, complex NVIDIA driver configurations, and persistent systemd service management.
 - **Automation & IaC:** Delivering reproducible infrastructure through Infrastructure-as-Code.
 - **Security:** Native integration of offensive security tools and sovereign AI workflows.
