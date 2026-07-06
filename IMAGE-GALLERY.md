@@ -8,14 +8,14 @@
 
 | System | Screenshot | View |
 |--------|-----------|------|
-| 🖥️ **Proxmox VE** | Hypervisor Dashboard | [View Full Size](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/proxmox-dashboard.png) |
-| 🔐 **OPNsense** | Firewall Gateway | [View Full Size](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/opnsense-gateway.png) |
-| 💾 **Syncthing** | 3-Node Sync | [View Full Size](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/syncthing-sync.png) |
-| 🔄 **Gitea** | Repository Automation | [View Full Size](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/gitea-cron-tasks.png) |
-| 📈 **Prometheus** | Metrics Collection | [View Full Size](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/prometheus-status.png) |
-| 🌐 **Pi-hole** | DNS Services | [View Full Size](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/pihole-dashboard.png) |
-| 🎮 **Arch GPU** | GPU Compute Cluster | [View Full Size](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/arch-gpu-status.png) |
-| 🍎 **Raspberry Pi** | Network Services | [View Full Size](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/raspberrypi-services.png) |
+| 🖥️ **Proxmox VE** | Hypervisor Dashboard | [View Full Size](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/proxmoxpng.png) |
+| 🔐 **OPNsense** | Firewall Gateway | [View Full Size](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/opnsense.png) |
+| 💾 **Syncthing** | 3-Node Sync | [View Full Size](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/syncthing.png) |
+| 🔄 **Gitea** | Repository Automation | [View Full Size](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/gitea.png) |
+| 📈 **Prometheus** | Metrics Collection | [View Full Size](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/prometheus.png) |
+| 🌐 **Pi-hole** | DNS Services | [View Full Size](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/pi-hole.png) |
+| 🎮 **Arch GPU** | GPU Compute Cluster | [View Full Size](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/arch.png) |
+| 🍎 **Raspberry Pi** | Network Services | [View Full Size](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/pi.png) |
 
 ---
 
@@ -32,7 +32,7 @@
 - Disk: 10.42% used
 - Task log showing successful operations
 
-**[→ Click here to view full screenshot](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/proxmox-dashboard.png)**
+**[→ Click here to view full screenshot](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/proxmoxpng.png)**
 
 **Status:** ✅ Active | **Uptime:** Continuous
 
@@ -51,7 +51,7 @@
 - Firewall rules (IPv6 RFC4890 compliance)
 - Traffic graphs showing network activity
 
-**[→ Click here to view full screenshot](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/opnsense-gateway.png)**
+**[→ Click here to view full screenshot](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/opnsense.png)**
 
 **Status:** ✅ Active | **Uptime:** 6.5 hours
 
@@ -71,7 +71,7 @@
 - 6h 33m continuous uptime
 - 53 files, 16 directories synced
 
-**[→ Click here to view full screenshot](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/syncthing-sync.png)**
+**[→ Click here to view full screenshot](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/syncthing.png)**
 
 **Status:** ✅ Live | **Replication:** Real-time
 
@@ -91,7 +91,7 @@
 - Zero failed tasks (0 errors)
 - 4 pending tasks for next scheduled run
 
-**[→ Click here to view full screenshot](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/gitea-cron-tasks.png)**
+**[→ Click here to view full screenshot](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/gitea.png)**
 
 **Status:** ✅ Automated | **Tasks:** 10/14 Success
 
@@ -112,7 +112,7 @@
 - Storage retention: 15 days
 - Configuration reload: Successful
 
-**[→ Click here to view full screenshot](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/prometheus-status.png)**
+**[→ Click here to view full screenshot](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/prometheus.png)**
 
 **Status:** ✅ Healthy | **Uptime:** 7+ hours
 
@@ -133,7 +133,7 @@
 - Groups configured: 1
 - Uptime: Continuous
 
-**[→ Click here to view full screenshot](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/pihole-dashboard.png)**
+**[→ Click here to view full screenshot](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/pi-hole.png)**
 
 **Status:** ✅ Active | **Blocklists:** 162,812
 
@@ -154,7 +154,7 @@
 - Ollama runtime: Port 11434
 - Inference speed: 50-100 tokens/second
 
-**[→ Click here to view full screenshot](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/arch-gpu-status.png)**
+**[→ Click here to view full screenshot](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/arch.png)**
 
 **Status:** ✅ Inference Active | **VRAM:** 24 GB
 
@@ -175,7 +175,7 @@
 - Multiple services on single node
 - Long-term stability (weeks+ uptime)
 
-**[→ Click here to view full screenshot](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/raspberrypi-services.png)**
+**[→ Click here to view full screenshot](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/pi.png)**
 
 **Status:** ✅ Multi-Service | **Power:** <10W
 
@@ -185,14 +185,14 @@
 
 | # | System | Uptime | Status | Link |
 |---|--------|--------|--------|------|
-| 1️⃣ | Proxmox VE | Continuous | ✅ Active | [View](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/proxmox-dashboard.png) |
-| 2️⃣ | OPNsense Gateway | 6.5h | ✅ Active | [View](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/opnsense-gateway.png) |
-| 3️⃣ | Syncthing Sync | Continuous | ✅ Synced | [View](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/syncthing-sync.png) |
-| 4️⃣ | Gitea Automation | Continuous | ✅ 10/14 Tasks | [View](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/gitea-cron-tasks.png) |
-| 5️⃣ | Prometheus | 7+ hours | ✅ Healthy | [View](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/prometheus-status.png) |
-| 6️⃣ | Pi-hole DNS | Continuous | ✅ Active | [View](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/pihole-dashboard.png) |
-| 7️⃣ | Arch GPU | Continuous | ✅ Inference | [View](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/arch-gpu-status.png) |
-| 8️⃣ | Raspberry Pi | Continuous | ✅ Multi-Service | [View](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/raspberrypi-services.png) |
+| 1️⃣ | Proxmox VE | Continuous | ✅ Active | [View](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/proxmoxpng.png) |
+| 2️⃣ | OPNsense Gateway | 6.5h | ✅ Active | [View](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/opnsense.png) |
+| 3️⃣ | Syncthing Sync | Continuous | ✅ Synced | [View](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/syncthing.png) |
+| 4️⃣ | Gitea Automation | Continuous | ✅ 10/14 Tasks | [View](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/gitea.png) |
+| 5️⃣ | Prometheus | 7+ hours | ✅ Healthy | [View](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/prometheus.png) |
+| 6️⃣ | Pi-hole DNS | Continuous | ✅ Active | [View](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/pi-hole.png) |
+| 7️⃣ | Arch GPU | Continuous | ✅ Inference | [View](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/arch.png) |
+| 8️⃣ | Raspberry Pi | Continuous | ✅ Multi-Service | [View](https://github.com/Dinaverse/sovereign-ai-infrastructure/blob/main/assets/operational-evidence/pi.png) |
 
 ---
 
