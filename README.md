@@ -6,16 +6,6 @@ I approach technology with a research-and-development mindset. I leverage open-s
 
 ---
 
-## 🚀 Core Technical Focus
-
-* ⚡ **Sovereign AI Infrastructure:** Designing distributed, bare-metal compute clusters optimized for local inference (4×GPU clustering, multi-node orchestration, zero cloud dependencies).
-* 🐧 **Hardened Linux Systems:** High-level administration of Arch Linux, Kali Linux, Debian, and Ubuntu environments with Docker containerization and distributed systems architecture.
-* 🛡️ **Security Automation:** Autonomous agents for log monitoring, network reconnaissance, threat detection, and AI-driven security operations (NVIDIA Morpheus integration).
-* ⚙️ **Infrastructure-as-Code:** Declarative deployments, configuration management, reproducible node recovery, and resilient system design.
-* 🏗️ **Hardware Revalorisation:** Repairing, optimizing, and orchestrating recycled enterprise-grade hardware for high-performance local workloads.
-
----
-
 ## 📸 LIVE OPERATIONAL PROOF
 
 ### **🖼️ [VIEW SCREENSHOT GALLERY](IMAGE-GALLERY.md)** ← CLICK HERE
@@ -32,6 +22,16 @@ I approach technology with a research-and-development mindset. I leverage open-s
 
 **[→ FULL SCREENSHOT GALLERY WITH CLICKABLE LINKS](IMAGE-GALLERY.md)**  
 **[→ DETAILED OPERATIONAL ANALYSIS](OPERATIONAL-EVIDENCE.md)**
+
+---
+
+## 🚀 Core Technical Focus
+
+* ⚡ **Sovereign AI Infrastructure:** Designing distributed, bare-metal compute clusters optimized for local inference (4×GPU clustering, multi-node orchestration, zero cloud dependencies).
+* 🐧 **Hardened Linux Systems:** High-level administration of Arch Linux, Kali Linux, Debian, and Ubuntu environments with Docker containerization and distributed systems architecture.
+* 🛡️ **Security Automation:** Autonomous agents for log monitoring, network reconnaissance, threat detection, and AI-driven security operations (NVIDIA Morpheus integration).
+* ⚙️ **Infrastructure-as-Code:** Declarative deployments, configuration management, reproducible node recovery, and resilient system design.
+* 🏗️ **Hardware Revalorisation:** Repairing, optimizing, and orchestrating recycled enterprise-grade hardware for high-performance local workloads.
 
 ---
 
