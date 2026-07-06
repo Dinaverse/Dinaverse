@@ -16,34 +16,53 @@ I approach technology with a research-and-development mindset. I leverage open-s
 
 ---
 
+## 📸 LIVE OPERATIONAL PROOF
+
+### **🖼️ [VIEW SCREENSHOT GALLERY](IMAGE-GALLERY.md)** ← CLICK HERE
+
+**All 8 systems running right now with proof:**
+- ✅ **Proxmox VE** — 5 containers operational
+- ✅ **OPNsense Gateway** — 6.5h uptime
+- ✅ **Syncthing** — 3-node sync confirmed
+- ✅ **Gitea** — 14 automated tasks
+- ✅ **Prometheus** — 7h+ uptime, zero corruption
+- ✅ **Pi-hole DNS** — 162,812 blocklists
+- ✅ **Arch GPU Cluster** — 24 GB VRAM, LLM inference
+- ✅ **Raspberry Pi** — Multi-service hub
+
+**[→ FULL SCREENSHOT GALLERY WITH CLICKABLE LINKS](IMAGE-GALLERY.md)**  
+**[→ DETAILED OPERATIONAL ANALYSIS](OPERATIONAL-EVIDENCE.md)**
+
+---
+
 ## 🏗️ Flagship Projects
 
 ### Infrastructure & AI
 
 | Project | Description | Stack | Status |
 |---------|-------------|-------|--------|
-| **[sovereign-ai-infrastructure](https://github.com/Dinaverse/sovereign-ai-infrastructure)** | Centralized architecture documentation for distributed 5-node lab with multi-node topology, orchestr[...] | Multi-node topology, Orchestrati[...] | ✅ Active |
-| **[local-ai-sovereign-stack](https://github.com/Dinaverse/local-ai-sovereign-stack)** | Docker-based AI stack with Ollama LLM runtime, GPU acceleration, and comprehensive monitoring dashboards |[...] | Docker Compose, CUDA, Monitoring | ✅ Active |
-| **[arch-linux-multi-gpu-llm](https://github.com/Dinaverse/arch-linux-multi-gpu-llm)** | GPU cluster optimization guide for 4×NVIDIA P106-100 inference running Qwen 3.5:27B with CUDA multi-GPU s[...] | Arch Linux, CUDA, systemd, Ollama | ✅ Active[...] |
-| **[infrastructure-as-code-lab](https://github.com/Dinaverse/infrastructure-as-code-lab)** | Terraform & Ansible frameworks for reproducible deployments across all infrastructure nodes | Terrafor[...] | Terraform, Ansible, IaC | 🔄 In Dev |
+| **[sovereign-ai-infrastructure](https://github.com/Dinaverse/sovereign-ai-infrastructure)** | Centralized architecture documentation for distributed 5-node lab with multi-node topology, orchestr[...] | Multi-node, Orchestration | ✅ Active |
+| **[local-ai-sovereign-stack](https://github.com/Dinaverse/local-ai-sovereign-stack)** | Docker-based AI stack with Ollama LLM runtime, GPU acceleration, and comprehensive monitoring dashboards |[...] | Docker, CUDA, Monitoring | ✅ Active |
+| **[arch-linux-multi-gpu-llm](https://github.com/Dinaverse/arch-linux-multi-gpu-llm)** | GPU cluster optimization guide for 4×NVIDIA P106-100 inference running Qwen 3.5:27B with CUDA multi-GPU s[...] | Arch Linux, CUDA | ✅ Active |
+| **[infrastructure-as-code-lab](https://github.com/Dinaverse/infrastructure-as-code-lab)** | Terraform & Ansible frameworks for reproducible deployments across all infrastructure nodes | IaC, Automation | 🔄 In Dev |
 
 ### Security & Automation
 
 | Project | Description | Stack | Status |
 |---------|-------------|-------|--------|
-| **[cybersecurity-lab-automation](https://github.com/Dinaverse/cybersecurity-lab-automation)** | Autonomous agents for continuous log monitoring, hourly network reconnaissance, and threat detecti[...] | Python, MCP Bridge, Morpheus | ✅[...] |
-| **[sovereign-ai-security](https://github.com/Dinaverse/sovereign-ai-security)** | NVIDIA Morpheus + Triton integration for AI-driven security operations with real-time threat scoring and inciden[...] | Morpheus, Triton, Python | ✅ Active |
-| **[sovereign-ai-skills](https://github.com/Dinaverse/sovereign-ai-skills)** | Custom AI skills and Gemini CLI integration enabling autonomous agent orchestration for security and infrastructure [...]  | Gemini CLI, Python, Ollama | ✅ Active |
+| **[cybersecurity-lab-automation](https://github.com/Dinaverse/cybersecurity-lab-automation)** | Autonomous agents for continuous log monitoring, hourly network reconnaissance, and threat detecti[...] | Python, MCP, Morpheus | ✅ Active |
+| **[sovereign-ai-security](https://github.com/Dinaverse/sovereign-ai-security)** | NVIDIA Morpheus + Triton integration for AI-driven security operations with real-time threat scoring and inciden[...] | Morpheus, Triton | ✅ Active |
+| **[sovereign-ai-skills](https://github.com/Dinaverse/sovereign-ai-skills)** | Custom AI skills and Gemini CLI integration enabling autonomous agent orchestration for security and infrastructure [...]  | Gemini CLI, Python | ✅ Active |
 | **[n8n-automation-hub](https://github.com/Dinaverse/n8n-automation-hub)** | 8+ workflow definitions for lab orchestration, security automation, infrastructure management, and autonomous incident[...] | n8n, Workflows | ✅ Active |
-| **[ai-workflow-automation](https://github.com/Dinaverse/ai-workflow-automation)** | Gemini CLI tools for automated repository management, documentation generation, and Git orchestration across e[...] | Gemini CLI, Node.js, Git | ✅ Active |
+| **[ai-workflow-automation](https://github.com/Dinaverse/ai-workflow-automation)** | Gemini CLI tools for automated repository management, documentation generation, and Git orchestration across e[...] | Gemini CLI, Git | ✅ Active |
 | **[python-security-analytics](https://github.com/Dinaverse/python-security-analytics)** | 40+ Python scripts for log analysis, network reconnaissance, access control auditing, and threat detecti[...] | Python, NumPy | ✅ Active |
 
 ### Homelab & Networking
 
 | Project | Description | Stack | Status |
 |---------|-------------|-------|--------|
-| **[proxmox-homelab-setup](https://github.com/Dinaverse/proxmox-homelab-setup)** | Proxmox hypervisor deployment on Dell T1700 with LXC containers, Docker, and Tailscale remote access | Proxmox V[...] | ✅ Stable |
-| **[network-labs-documentation](https://github.com/Dinaverse/network-labs-documentation)** | Cisco Packet Tracer labs: routing protocols (OSPF, BGP), VLANs, ACLs, security configurations, and CTF writeups |[...] | ✅ Active |
+| **[proxmox-homelab-setup](https://github.com/Dinaverse/proxmox-homelab-setup)** | Proxmox hypervisor deployment on Dell T1700 with LXC containers, Docker, and Tailscale remote access | Proxmox, LXC | ✅ Stable |
+| **[network-labs-documentation](https://github.com/Dinaverse/network-labs-documentation)** | Cisco Packet Tracer labs: routing protocols (OSPF, BGP), VLANs, ACLs, security configurations, and CTF[...] | Cisco, Networking | ✅ Active |
 
 ---
 
@@ -104,18 +123,18 @@ I approach technology with a research-and-development mindset. I leverage open-s
 
 ### Quick Navigation
 
-| Goal | Repository | File |
-|------|-----------|------|
-| **Understand architecture** | `sovereign-ai-infrastructure` | `README.md` |
-| **Deploy Docker services** | `local-ai-sovereign-stack` | `README.md` |
-| **GPU optimization** | `arch-linux-multi-gpu-llm` | Repository docs |
-| **Security automation** | `cybersecurity-lab-automation` | `README.md` |
-| **Security analytics scripts** | `python-security-analytics` | `README.md` |
-| **Networking: OSPF, ACLs, VLANs** | `network-labs-documentation` | `README.md` |
-| **Proxmox setup** | `proxmox-homelab-setup` | `README.md` |
-| **Workflow automation** | `n8n-automation-hub` | Repository docs |
-| **IaC frameworks** | `infrastructure-as-code-lab` | `README.md` |
-| **Repository orchestration** | `ai-workflow-automation` | `README.md` |
+| Goal | Resource | Link |
+|------|----------|------|
+| **See running systems** | Screenshot Gallery | [IMAGE-GALLERY.md](IMAGE-GALLERY.md) |
+| **Full operational details** | Detailed Evidence | [OPERATIONAL-EVIDENCE.md](OPERATIONAL-EVIDENCE.md) |
+| **Understand architecture** | Core Docs | `sovereign-ai-infrastructure` README |
+| **Deploy Docker services** | AI Stack | `local-ai-sovereign-stack` README |
+| **GPU optimization** | CUDA Tuning | `arch-linux-multi-gpu-llm` docs |
+| **Security automation** | SecOps | `cybersecurity-lab-automation` README |
+| **Security scripts** | Analytics | `python-security-analytics` README |
+| **Networking labs** | OSPF/ACL | `network-labs-documentation` README |
+| **Proxmox setup** | Hypervisor | `proxmox-homelab-setup` README |
+| **IaC frameworks** | Automation | `infrastructure-as-code-lab` README |
 
 ### Repository Dependencies
 
@@ -161,19 +180,20 @@ sovereign-ai-infrastructure (core docs)
 
 ## 📊 Proof of Operations
 
-### Live System Evidence
+### ➡️ [🖼️ VIEW SCREENSHOT GALLERY](IMAGE-GALLERY.md)
 
-**[→ VIEW OPERATIONAL EVIDENCE](OPERATIONAL-EVIDENCE.md)** — Real-time screenshots and metrics proving all systems are running.
+**8 operational screenshots with clickable full-size links:**
 
-#### Quick Summary:
-- ✅ **Proxmox VE 9.2.4** — 5 containers operational
-- ✅ **OPNsense Gateway** — 6.5h continuous uptime, firewall + routing active
-- ✅ **Syncthing** — 3-node distributed sync confirmed
-- ✅ **Gitea** — 14 automated maintenance tasks running
-- ✅ **Prometheus** — 7h+ uptime, zero data corruption
-- ✅ **Pi-hole** — DNS + ad-blocking active, 162,812 blocklists
+1. **Proxmox VE Dashboard** - [View](IMAGE-GALLERY.md#-screenshot-1-proxmox-ve-dashboard)
+2. **OPNsense Firewall** - [View](IMAGE-GALLERY.md#-screenshot-2-opnsense-firewall-gateway)
+3. **Syncthing Sync** - [View](IMAGE-GALLERY.md#-screenshot-3-syncthing-multi-node-sync)
+4. **Gitea Automation** - [View](IMAGE-GALLERY.md#-screenshot-4-gitea-repository-automation)
+5. **Prometheus Metrics** - [View](IMAGE-GALLERY.md#-screenshot-5-prometheus-metrics-collection)
+6. **Pi-hole DNS** - [View](IMAGE-GALLERY.md#-screenshot-6-pi-hole-dns--ad-blocking)
+7. **Arch GPU Cluster** - [View](IMAGE-GALLERY.md#-screenshot-7-arch-linux-gpu-compute-cluster)
+8. **Raspberry Pi Hub** - [View](IMAGE-GALLERY.md#-screenshot-8-raspberry-pi-infrastructure-hub)
 
-**All screenshots and metrics documented in [OPERATIONAL-EVIDENCE.md](OPERATIONAL-EVIDENCE.md)**
+**[→ FULL OPERATIONAL ANALYSIS](OPERATIONAL-EVIDENCE.md)**
 
 ---
 
