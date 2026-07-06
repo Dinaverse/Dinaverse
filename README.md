@@ -22,28 +22,28 @@ I approach technology with a research-and-development mindset. I leverage open-s
 
 | Project | Description | Stack | Status |
 |---------|-------------|-------|--------|
-| **[sovereign-ai-infrastructure](https://github.com/Dinaverse/sovereign-ai-infrastructure)** | Centralized architecture documentation for distributed 5-node lab with multi-node topology, orchestration, and monitoring | Multi-node topology, Docker, Prometheus/Grafana | ✅ Active |
-| **[local-ai-sovereign-stack](https://github.com/Dinaverse/local-ai-sovereign-stack)** | Docker-based AI stack with Ollama LLM runtime, GPU acceleration, and comprehensive monitoring dashboards | Docker Compose, CUDA, Monitoring, n8n | ✅ Active |
-| **[arch-linux-multi-gpu-llm](https://github.com/Dinaverse/arch-linux-multi-gpu-llm)** | GPU cluster optimization guide for 4×NVIDIA P106-100 inference running Qwen 3.5:27B with CUDA multi-GPU support | Arch Linux, CUDA, systemd, Ollama | ✅ Active |
-| **[infrastructure-as-code-lab](https://github.com/Dinaverse/infrastructure-as-code-lab)** | Terraform & Ansible frameworks for reproducible deployments across all infrastructure nodes | Terraform, Ansible, IaC, Bash | 🔄 In Dev |
+| **[sovereign-ai-infrastructure](https://github.com/Dinaverse/sovereign-ai-infrastructure)** | Centralized architecture documentation for distributed 5-node lab with multi-node topology, orchestr[...] | Multi-node topology, Orchestrati[...] | ✅ Active |
+| **[local-ai-sovereign-stack](https://github.com/Dinaverse/local-ai-sovereign-stack)** | Docker-based AI stack with Ollama LLM runtime, GPU acceleration, and comprehensive monitoring dashboards |[...] | Docker Compose, CUDA, Monitoring | ✅ Active |
+| **[arch-linux-multi-gpu-llm](https://github.com/Dinaverse/arch-linux-multi-gpu-llm)** | GPU cluster optimization guide for 4×NVIDIA P106-100 inference running Qwen 3.5:27B with CUDA multi-GPU s[...] | Arch Linux, CUDA, systemd, Ollama | ✅ Active[...] |
+| **[infrastructure-as-code-lab](https://github.com/Dinaverse/infrastructure-as-code-lab)** | Terraform & Ansible frameworks for reproducible deployments across all infrastructure nodes | Terrafor[...] | Terraform, Ansible, IaC | 🔄 In Dev |
 
 ### Security & Automation
 
 | Project | Description | Stack | Status |
 |---------|-------------|-------|--------|
-| **[cybersecurity-lab-automation](https://github.com/Dinaverse/cybersecurity-lab-automation)** | Autonomous agents for continuous log monitoring, hourly network reconnaissance, and threat detection with MCP Bridge integration | Python, MCP Bridge, NVIDIA Morpheus | ✅ Active |
-| **[sovereign-ai-security](https://github.com/Dinaverse/sovereign-ai-security)** | NVIDIA Morpheus + Triton integration for AI-driven security operations with real-time threat scoring and incident correlation | Morpheus, Triton, Python, CUDA | ✅ Active |
-| **[sovereign-ai-skills](https://github.com/Dinaverse/sovereign-ai-skills)** | Custom AI skills and Gemini CLI integration enabling autonomous agent orchestration for security and infrastructure tasks | Gemini CLI, Python, Ollama, Skills Framework | ✅ Active |
-| **[n8n-automation-hub](https://github.com/Dinaverse/n8n-automation-hub)** | 8+ workflow definitions for lab orchestration, security automation, infrastructure management, and autonomous incident response | n8n, Workflows, HTTP Webhooks | ✅ Active |
-| **[ai-workflow-automation](https://github.com/Dinaverse/ai-workflow-automation)** | Gemini CLI tools for automated repository management, documentation generation, and Git orchestration across ecosystem | Gemini CLI, Node.js, Git, Octokit | ✅ Active |
-| **[python-security-analytics](https://github.com/Dinaverse/python-security-analytics)** | 40+ Python scripts for log analysis, network reconnaissance, access control auditing, and threat detection | Python 3, NumPy, Pandas, Security Tools | ✅ Active |
+| **[cybersecurity-lab-automation](https://github.com/Dinaverse/cybersecurity-lab-automation)** | Autonomous agents for continuous log monitoring, hourly network reconnaissance, and threat detecti[...] | Python, MCP Bridge, Morpheus | ✅[...] |
+| **[sovereign-ai-security](https://github.com/Dinaverse/sovereign-ai-security)** | NVIDIA Morpheus + Triton integration for AI-driven security operations with real-time threat scoring and inciden[...] | Morpheus, Triton, Python | ✅ Active |
+| **[sovereign-ai-skills](https://github.com/Dinaverse/sovereign-ai-skills)** | Custom AI skills and Gemini CLI integration enabling autonomous agent orchestration for security and infrastructure [...]  | Gemini CLI, Python, Ollama | ✅ Active |
+| **[n8n-automation-hub](https://github.com/Dinaverse/n8n-automation-hub)** | 8+ workflow definitions for lab orchestration, security automation, infrastructure management, and autonomous incident[...] | n8n, Workflows | ✅ Active |
+| **[ai-workflow-automation](https://github.com/Dinaverse/ai-workflow-automation)** | Gemini CLI tools for automated repository management, documentation generation, and Git orchestration across e[...] | Gemini CLI, Node.js, Git | ✅ Active |
+| **[python-security-analytics](https://github.com/Dinaverse/python-security-analytics)** | 40+ Python scripts for log analysis, network reconnaissance, access control auditing, and threat detecti[...] | Python, NumPy | ✅ Active |
 
 ### Homelab & Networking
 
 | Project | Description | Stack | Status |
 |---------|-------------|-------|--------|
-| **[proxmox-homelab-setup](https://github.com/Dinaverse/proxmox-homelab-setup)** | Proxmox hypervisor deployment on Dell T1700 with LXC containers, Docker, and Tailscale remote access | Proxmox VE, LXC, Docker, Tailscale | ✅ Stable |
-| **[network-labs-documentation](https://github.com/Dinaverse/network-labs-documentation)** | Cisco Packet Tracer network topology analysis, CTF challenges, and network engineering documentation | Cisco, Packet Tracer, Networking | ✅ Active |
+| **[proxmox-homelab-setup](https://github.com/Dinaverse/proxmox-homelab-setup)** | Proxmox hypervisor deployment on Dell T1700 with LXC containers, Docker, and Tailscale remote access | Proxmox V[...] | ✅ Stable |
+| **[network-labs-documentation](https://github.com/Dinaverse/network-labs-documentation)** | Cisco Packet Tracer labs: routing protocols (OSPF, BGP), VLANs, ACLs, security configurations, and CTF writeups |[...] | ✅ Active |
 
 ---
 
@@ -111,6 +111,7 @@ I approach technology with a research-and-development mindset. I leverage open-s
 | **GPU optimization** | `arch-linux-multi-gpu-llm` | Repository docs |
 | **Security automation** | `cybersecurity-lab-automation` | `README.md` |
 | **Security analytics scripts** | `python-security-analytics` | `README.md` |
+| **Networking: OSPF, ACLs, VLANs** | `network-labs-documentation` | `README.md` |
 | **Proxmox setup** | `proxmox-homelab-setup` | `README.md` |
 | **Workflow automation** | `n8n-automation-hub` | Repository docs |
 | **IaC frameworks** | `infrastructure-as-code-lab` | `README.md` |
@@ -129,7 +130,8 @@ sovereign-ai-infrastructure (core docs)
      ├── n8n-automation-hub (Workflows)
      ├── ai-workflow-automation (Repo management)
      ├── infrastructure-as-code-lab (IaC)
-     └── proxmox-homelab-setup (Hypervisor)
+     ├── proxmox-homelab-setup (Hypervisor)
+     └── network-labs-documentation (Networking labs & certifications)
 ```
 
 ---
@@ -148,6 +150,7 @@ sovereign-ai-infrastructure (core docs)
 | Proxmox Hypervisor | ✅ Stable | 2026-07-05 |
 | Docker Services | ✅ Operational | 2026-07-05 |
 | AI Workflow Automation | ✅ Active | 2026-07-05 |
+| Cisco Networking Labs (OSPF, ACL, VLAN) | ✅ Active | 2026-07-05 |
 
 ---
 
@@ -171,14 +174,14 @@ sovereign-ai-infrastructure (core docs)
 - **[ai-workflow-automation](https://github.com/Dinaverse/ai-workflow-automation)** — Repository management and documentation automation
 
 ### Networking & Labs
-- **[network-labs-documentation](https://github.com/Dinaverse/network-labs-documentation)** — Cisco Packet Tracer labs and CTF challenges
+- **[network-labs-documentation](https://github.com/Dinaverse/network-labs-documentation)** — Cisco Packet Tracer labs (OSPF, ACLs, VLANs, routing) and CTF challenges
 
 ---
 
 ## 📖 Current Studies & Validation
 
 * **Academic:** Refining infrastructure methodologies through formal Network Infrastructure & Cybersecurity studies at *Collège de Bois-de-Boulogne*.
-* **Certifications:** Pursuing enterprise networking validation (Cisco CCNA / CCST).
+* **Certifications:** Pursuing enterprise networking validation (Cisco CCST & CCNA) with hands-on labs in OSPF configuration, advanced ACL filtering, and multi-area routing design.
 * **Hands-On Research:** Continuous lab experimentation in distributed systems, security automation, and AI inference optimization.
 
 ---
@@ -187,13 +190,14 @@ sovereign-ai-infrastructure (core docs)
 
 > *Sovereignty through ownership. Resilience through design. Knowledge through practice.*
 
-Every component runs locally. Every decision is documented. Every failure is a learning opportunity. The lab is not just infrastructure—it's a **living system for understanding distributed systems, security operations, and AI engineering at production scale**.
+Every component runs locally. Every decision is documented. Every failure is a learning opportunity. The lab is not just infrastructure—it's a **living system for understanding distributed systems, security operations, and network engineering**.
 
 This is not a theoretical exercise. These repositories contain:
 - **Real hardware** optimized through hands-on troubleshooting
 - **Real workflows** that automate actual security and infrastructure operations
 - **Real performance data** from 24 GB GPU clusters running production LLMs
 - **Real security tools** defending actual infrastructure
+- **Real networking labs** with hands-on OSPF, ACL, and routing protocol configurations
 
 The goal is not to rent cloud services. It's to architect, deploy, and maintain a **complete computing environment** that is:
 - **Sovereign** — No dependency on external providers
@@ -212,6 +216,7 @@ This ecosystem is continuously evolving. If you're interested in:
 - Infrastructure-as-Code best practices
 - Autonomous AI agents for operations
 - Hardware revalorization techniques
+- Cisco networking certifications (CCST, CCNA)
 
 Feel free to explore, reference, and adapt these approaches for your own infrastructure.
 
@@ -224,6 +229,7 @@ All repositories are openly documented to support the community and advance shar
 - Security operations automation
 - Sustainable hardware practices
 - Local AI inference
+- Enterprise networking and routing protocols
 
 ---
 
