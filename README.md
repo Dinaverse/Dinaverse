@@ -10,12 +10,13 @@ I approach technology with a research-and-development mindset. I leverage open-s
 
 ### **🖼️ [VIEW SCREENSHOT GALLERY](IMAGE-GALLERY.md)** ← CLICK HERE
 
-**All 8 systems running right now with proof:**
+**All 9 systems running right now with proof:**
 - ✅ **Proxmox VE** — 5 containers operational
 - ✅ **OPNsense Gateway** — 6.5h uptime
 - ✅ **Syncthing** — 3-node sync confirmed
 - ✅ **Gitea** — 14 automated tasks
 - ✅ **Prometheus** — 7h+ uptime, zero corruption
+- ✅ **Grafana** — Dashboard visualization live
 - ✅ **Pi-hole DNS** — 162,812 blocklists
 - ✅ **Arch GPU Cluster** — 24 GB VRAM, LLM inference
 - ✅ **Raspberry Pi** — Multi-service hub
@@ -175,6 +176,7 @@ sovereign-ai-infrastructure (core docs)
 | **Syncthing 3-node Sync** | ✅ **Live** | **2026-07-06 00:32 UTC** |
 | **Gitea Automation** | ✅ **14 Tasks** | **2026-07-06 00:32 UTC** |
 | **Pi-hole DNS** | ✅ **Active** | **2026-07-06 00:32 UTC** |
+| **Grafana Dashboard** | ✅ **Node Exporter** | **2026-07-06 02:05 UTC** |
 
 ---
 
@@ -182,16 +184,17 @@ sovereign-ai-infrastructure (core docs)
 
 ### ➡️ [🖼️ VIEW SCREENSHOT GALLERY](IMAGE-GALLERY.md)
 
-**8 operational screenshots with clickable full-size links:**
+**9 operational screenshots with clickable full-size links:**
 
 1. **Proxmox VE Dashboard** - [View](IMAGE-GALLERY.md#-screenshot-1-proxmox-ve-dashboard)
 2. **OPNsense Firewall** - [View](IMAGE-GALLERY.md#-screenshot-2-opnsense-firewall-gateway)
 3. **Syncthing Sync** - [View](IMAGE-GALLERY.md#-screenshot-3-syncthing-multi-node-sync)
 4. **Gitea Automation** - [View](IMAGE-GALLERY.md#-screenshot-4-gitea-repository-automation)
 5. **Prometheus Metrics** - [View](IMAGE-GALLERY.md#-screenshot-5-prometheus-metrics-collection)
-6. **Pi-hole DNS** - [View](IMAGE-GALLERY.md#-screenshot-6-pi-hole-dns--ad-blocking)
-7. **Arch GPU Cluster** - [View](IMAGE-GALLERY.md#-screenshot-7-arch-linux-gpu-compute-cluster)
-8. **Raspberry Pi Hub** - [View](IMAGE-GALLERY.md#-screenshot-8-raspberry-pi-infrastructure-hub)
+6. **Grafana Dashboard** - [View](IMAGE-GALLERY.md#-screenshot-6-grafana-visualization-dashboard)
+7. **Pi-hole DNS** - [View](IMAGE-GALLERY.md#-screenshot-7-pi-hole-dns--ad-blocking)
+8. **Arch GPU Cluster** - [View](IMAGE-GALLERY.md#-screenshot-8-arch-linux-gpu-compute-cluster)
+9. **Raspberry Pi Hub** - [View](IMAGE-GALLERY.md#-screenshot-9-raspberry-pi-infrastructure-hub)
 
 **[→ FULL OPERATIONAL ANALYSIS](OPERATIONAL-EVIDENCE.md)**
 
