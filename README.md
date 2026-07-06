@@ -151,6 +151,29 @@ sovereign-ai-infrastructure (core docs)
 | Docker Services | ✅ Operational | 2026-07-05 |
 | AI Workflow Automation | ✅ Active | 2026-07-05 |
 | Cisco Networking Labs (OSPF, ACL, VLAN) | ✅ Active | 2026-07-05 |
+| **Prometheus Metrics** | ✅ **7h+ Uptime** | **2026-07-06 00:32 UTC** |
+| **OPNsense Gateway** | ✅ **6.5h Uptime** | **2026-07-06 00:32 UTC** |
+| **Syncthing 3-node Sync** | ✅ **Live** | **2026-07-06 00:32 UTC** |
+| **Gitea Automation** | ✅ **14 Tasks** | **2026-07-06 00:32 UTC** |
+| **Pi-hole DNS** | ✅ **Active** | **2026-07-06 00:32 UTC** |
+
+---
+
+## 📊 Proof of Operations
+
+### Live System Evidence
+
+**[→ VIEW OPERATIONAL EVIDENCE](OPERATIONAL-EVIDENCE.md)** — Real-time screenshots and metrics proving all systems are running.
+
+#### Quick Summary:
+- ✅ **Proxmox VE 9.2.4** — 5 containers operational
+- ✅ **OPNsense Gateway** — 6.5h continuous uptime, firewall + routing active
+- ✅ **Syncthing** — 3-node distributed sync confirmed
+- ✅ **Gitea** — 14 automated maintenance tasks running
+- ✅ **Prometheus** — 7h+ uptime, zero data corruption
+- ✅ **Pi-hole** — DNS + ad-blocking active, 162,812 blocklists
+
+**All screenshots and metrics documented in [OPERATIONAL-EVIDENCE.md](OPERATIONAL-EVIDENCE.md)**
 
 ---
 
@@ -233,4 +256,4 @@ All repositories are openly documented to support the community and advance shar
 
 ---
 
-*Built with research-and-development mindset. Powered by repurposed hardware. Governed by open standards. Owned entirely.*
+*Built with research-and-development mindset. Powered by repurposed hardware. Governed by open standards. Owned entirely. Proven in operation.*
