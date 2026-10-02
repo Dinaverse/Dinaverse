@@ -136,6 +136,7 @@ I approach technology with a research-and-development mindset. I leverage open-s
 | **Networking labs** | OSPF/ACL | `network-labs-documentation` README |
 | **Proxmox setup** | Hypervisor | `proxmox-homelab-setup` README |
 | **IaC frameworks** | Automation | `infrastructure-as-code-lab` README |
+| **Troubleshoot an incident** | Lab Postmortems | `lab-troubleshooting` README |
 
 ### Repository Dependencies
 
@@ -221,6 +222,9 @@ sovereign-ai-infrastructure (core docs)
 
 ### Networking & Labs
 - **[network-labs-documentation](https://github.com/Dinaverse/network-labs-documentation)** — Cisco Packet Tracer labs (OSPF, ACLs, VLANs, routing) and CTF challenges
+
+### Troubleshooting & Postmortems
+- **[lab-troubleshooting](https://github.com/Dinaverse/lab-troubleshooting)** (real incident postmortems: kernel/storage wedges, networking blackholes, VPN isolation, desktop stability)
 
 ---
 
