@@ -138,6 +138,7 @@ I approach technology with a research-and-development mindset. I leverage open-s
 | **IaC frameworks** | Automation | `infrastructure-as-code-lab` README |
 | **Troubleshoot an incident** | Lab Postmortems | `lab-troubleshooting` README |
 | **Run a private AI assistant** | J.A.R.V.I.S. HUD | `jarvis-homelab` README |
+| **Understand the VPN mesh** | Tailscale Network | `tailscale-mesh-vpn` README |
 
 ### Repository Dependencies
 
@@ -224,6 +225,7 @@ sovereign-ai-infrastructure (core docs)
 
 ### Networking & Labs
 - **[network-labs-documentation](https://github.com/Dinaverse/network-labs-documentation)** — Cisco Packet Tracer labs (OSPF, ACLs, VLANs, routing) and CTF challenges
+- **[tailscale-mesh-vpn](https://github.com/Dinaverse/tailscale-mesh-vpn)** (zero-config WireGuard mesh VPN tying every lab node together, full mesh with DERP relay fallback, no subnet router)
 
 ### Troubleshooting & Postmortems
 - **[lab-troubleshooting](https://github.com/Dinaverse/lab-troubleshooting)** (real incident postmortems: kernel/storage wedges, networking blackholes, VPN isolation, desktop stability)
