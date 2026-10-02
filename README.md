@@ -42,8 +42,8 @@ I approach technology with a research-and-development mindset. I leverage open-s
 
 | Project | Description | Stack | Status |
 |---------|-------------|-------|--------|
-| **[sovereign-ai-infrastructure](https://github.com/Dinaverse/sovereign-ai-infrastructure)** | Centralized architecture documentation for distributed 5-node lab with multi-node topology, orchestr[...] | Multi-node, Orchestration | ✅ Active |
-| **[local-ai-sovereign-stack](https://github.com/Dinaverse/local-ai-sovereign-stack)** | Docker-based AI stack with Ollama LLM runtime, GPU acceleration, and comprehensive monitoring dashboards |[...] | Docker, CUDA, Monitoring | ✅ Active |
+| **[homelab-architecture-docs](https://github.com/Dinaverse/homelab-architecture-docs)** | Centralized architecture documentation for distributed 5-node lab with multi-node topology, orchestr[...] | Multi-node, Orchestration | ✅ Active |
+| **[self-hosted-ai-stack](https://github.com/Dinaverse/self-hosted-ai-stack)** | Docker-based AI stack with Ollama LLM runtime, GPU acceleration, and comprehensive monitoring dashboards |[...] | Docker, CUDA, Monitoring | ✅ Active |
 | **[arch-linux-multi-gpu-llm](https://github.com/Dinaverse/arch-linux-multi-gpu-llm)** | GPU cluster optimization guide for 4×NVIDIA P106-100 inference running Qwen 3.5:27B with CUDA multi-GPU s[...] | Arch Linux, CUDA | ✅ Active |
 | **[infrastructure-as-code-lab](https://github.com/Dinaverse/infrastructure-as-code-lab)** | Terraform & Ansible frameworks for reproducible deployments across all infrastructure nodes | IaC, Automation | 🔄 In Dev |
 
@@ -51,11 +51,11 @@ I approach technology with a research-and-development mindset. I leverage open-s
 
 | Project | Description | Stack | Status |
 |---------|-------------|-------|--------|
-| **[cybersecurity-lab-automation](https://github.com/Dinaverse/cybersecurity-lab-automation)** | Autonomous agents for continuous log monitoring, hourly network reconnaissance, and threat detecti[...] | Python, MCP, Morpheus | ✅ Active |
-| **[sovereign-ai-security](https://github.com/Dinaverse/sovereign-ai-security)** | NVIDIA Morpheus + Triton integration for AI-driven security operations with real-time threat scoring and inciden[...] | Morpheus, Triton | ✅ Active |
-| **[sovereign-ai-skills](https://github.com/Dinaverse/sovereign-ai-skills)** | Custom AI skills and Gemini CLI integration enabling autonomous agent orchestration for security and infrastructure [...]  | Gemini CLI, Python | ✅ Active |
-| **[n8n-automation-hub](https://github.com/Dinaverse/n8n-automation-hub)** | 8+ workflow definitions for lab orchestration, security automation, infrastructure management, and autonomous incident[...] | n8n, Workflows | ✅ Active |
-| **[ai-workflow-automation](https://github.com/Dinaverse/ai-workflow-automation)** | Gemini CLI tools for automated repository management, documentation generation, and Git orchestration across e[...] | Gemini CLI, Git | ✅ Active |
+| **[security-log-monitoring-scripts](https://github.com/Dinaverse/security-log-monitoring-scripts)** | Autonomous agents for continuous log monitoring, hourly network reconnaissance, and threat detecti[...] | Python, MCP, Morpheus | ✅ Active |
+| **[security-tooling-notes](https://github.com/Dinaverse/security-tooling-notes)** | NVIDIA Morpheus + Triton integration for AI-driven security operations with real-time threat scoring and inciden[...] | Morpheus, Triton | ✅ Active |
+| **[ai-agent-skill-definitions](https://github.com/Dinaverse/ai-agent-skill-definitions)** | Custom AI skills and Gemini CLI integration enabling autonomous agent orchestration for security and infrastructure [...]  | Gemini CLI, Python | ✅ Active |
+| **[n8n-workflows](https://github.com/Dinaverse/n8n-workflows)** | 8+ workflow definitions for lab orchestration, security automation, infrastructure management, and autonomous incident[...] | n8n, Workflows | ✅ Active |
+| **[gemini-cli-repo-scripts](https://github.com/Dinaverse/gemini-cli-repo-scripts)** | Gemini CLI tools for automated repository management, documentation generation, and Git orchestration across e[...] | Gemini CLI, Git | ✅ Active |
 | **[python-security-analytics](https://github.com/Dinaverse/python-security-analytics)** | 40+ Python scripts for log analysis, network reconnaissance, access control auditing, and threat detecti[...] | Python, NumPy | ✅ Active |
 
 ### Homelab & Networking
@@ -128,10 +128,10 @@ I approach technology with a research-and-development mindset. I leverage open-s
 |------|----------|------|
 | **See running systems** | Screenshot Gallery | [IMAGE-GALLERY.md](IMAGE-GALLERY.md) |
 | **Full operational details** | Detailed Evidence | [OPERATIONAL-EVIDENCE.md](OPERATIONAL-EVIDENCE.md) |
-| **Understand architecture** | Core Docs | `sovereign-ai-infrastructure` README |
-| **Deploy Docker services** | AI Stack | `local-ai-sovereign-stack` README |
+| **Understand architecture** | Core Docs | `homelab-architecture-docs` README |
+| **Deploy Docker services** | AI Stack | `self-hosted-ai-stack` README |
 | **GPU optimization** | CUDA Tuning | `arch-linux-multi-gpu-llm` docs |
-| **Security automation** | SecOps | `cybersecurity-lab-automation` README |
+| **Security automation** | SecOps | `security-log-monitoring-scripts` README |
 | **Security scripts** | Analytics | `python-security-analytics` README |
 | **Networking labs** | OSPF/ACL | `network-labs-documentation` README |
 | **Proxmox setup** | Hypervisor | `proxmox-homelab-setup` README |
@@ -143,15 +143,15 @@ I approach technology with a research-and-development mindset. I leverage open-s
 ### Repository Dependencies
 
 ```
-sovereign-ai-infrastructure (core docs)
-     ├── local-ai-sovereign-stack (Docker AI stack)
+homelab-architecture-docs (core docs)
+     ├── self-hosted-ai-stack (Docker AI stack)
      ├── arch-linux-multi-gpu-llm (GPU optimization)
-     ├── cybersecurity-lab-automation (Security agents)
+     ├── security-log-monitoring-scripts (Security agents)
      ├── python-security-analytics (Analytics scripts)
-     ├── sovereign-ai-security (Morpheus integration)
-     ├── sovereign-ai-skills (AI skills)
-     ├── n8n-automation-hub (Workflows)
-     ├── ai-workflow-automation (Repo management)
+     ├── security-tooling-notes (Morpheus integration)
+     ├── ai-agent-skill-definitions (AI skills)
+     ├── n8n-workflows (Workflows)
+     ├── gemini-cli-repo-scripts (Repo management)
      ├── infrastructure-as-code-lab (IaC)
      ├── proxmox-homelab-setup (Hypervisor)
      └── network-labs-documentation (Networking labs & certifications)
@@ -206,22 +206,22 @@ sovereign-ai-infrastructure (core docs)
 ## 🔗 Complete Repository Map
 
 ### Infrastructure & Architecture
-- **[sovereign-ai-infrastructure](https://github.com/Dinaverse/sovereign-ai-infrastructure)** — Central documentation hub with topology, hardware specs, and architecture
+- **[homelab-architecture-docs](https://github.com/Dinaverse/homelab-architecture-docs)** — Central documentation hub with topology, hardware specs, and architecture
 - **[infrastructure-as-code-lab](https://github.com/Dinaverse/infrastructure-as-code-lab)** — IaC deployment frameworks (Terraform, Ansible)
 - **[proxmox-homelab-setup](https://github.com/Dinaverse/proxmox-homelab-setup)** — Hypervisor & LXC container setup
 
 ### AI & Compute
-- **[local-ai-sovereign-stack](https://github.com/Dinaverse/local-ai-sovereign-stack)** — Docker AI stack (Ollama, Prometheus, Grafana, n8n)
+- **[self-hosted-ai-stack](https://github.com/Dinaverse/self-hosted-ai-stack)** — Docker AI stack (Ollama, Prometheus, Grafana, n8n)
 - **[arch-linux-multi-gpu-llm](https://github.com/Dinaverse/arch-linux-multi-gpu-llm)** — GPU cluster optimization and CUDA tuning
 - **[jarvis-homelab](https://github.com/Dinaverse/jarvis-homelab)** (private, self-hosted AI assistant: Proxmox + LXC + Ollama + Phi-3.5, a Tailscale mesh, and a custom J.A.R.V.I.S. HUD front end)
 
 ### Security & Automation
-- **[cybersecurity-lab-automation](https://github.com/Dinaverse/cybersecurity-lab-automation)** — Security agents, MCP Bridge, autonomous monitoring
+- **[security-log-monitoring-scripts](https://github.com/Dinaverse/security-log-monitoring-scripts)** — Security agents, MCP Bridge, autonomous monitoring
 - **[python-security-analytics](https://github.com/Dinaverse/python-security-analytics)** — 40+ security analysis scripts
-- **[sovereign-ai-security](https://github.com/Dinaverse/sovereign-ai-security)** — NVIDIA Morpheus AI SecOps integration
-- **[sovereign-ai-skills](https://github.com/Dinaverse/sovereign-ai-skills)** — Custom AI skills and Gemini CLI integration
-- **[n8n-automation-hub](https://github.com/Dinaverse/n8n-automation-hub)** — Workflow automation and orchestration
-- **[ai-workflow-automation](https://github.com/Dinaverse/ai-workflow-automation)** — Repository management and documentation automation
+- **[security-tooling-notes](https://github.com/Dinaverse/security-tooling-notes)** — NVIDIA Morpheus AI SecOps integration
+- **[ai-agent-skill-definitions](https://github.com/Dinaverse/ai-agent-skill-definitions)** — Custom AI skills and Gemini CLI integration
+- **[n8n-workflows](https://github.com/Dinaverse/n8n-workflows)** — Workflow automation and orchestration
+- **[gemini-cli-repo-scripts](https://github.com/Dinaverse/gemini-cli-repo-scripts)** — Repository management and documentation automation
 
 ### Networking & Labs
 - **[network-labs-documentation](https://github.com/Dinaverse/network-labs-documentation)** — Cisco Packet Tracer labs (OSPF, ACLs, VLANs, routing) and CTF challenges
