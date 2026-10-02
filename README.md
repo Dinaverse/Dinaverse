@@ -137,6 +137,7 @@ I approach technology with a research-and-development mindset. I leverage open-s
 | **Proxmox setup** | Hypervisor | `proxmox-homelab-setup` README |
 | **IaC frameworks** | Automation | `infrastructure-as-code-lab` README |
 | **Troubleshoot an incident** | Lab Postmortems | `lab-troubleshooting` README |
+| **Run a private AI assistant** | J.A.R.V.I.S. HUD | `jarvis-homelab` README |
 
 ### Repository Dependencies
 
@@ -211,6 +212,7 @@ sovereign-ai-infrastructure (core docs)
 ### AI & Compute
 - **[local-ai-sovereign-stack](https://github.com/Dinaverse/local-ai-sovereign-stack)** — Docker AI stack (Ollama, Prometheus, Grafana, n8n)
 - **[arch-linux-multi-gpu-llm](https://github.com/Dinaverse/arch-linux-multi-gpu-llm)** — GPU cluster optimization and CUDA tuning
+- **[jarvis-homelab](https://github.com/Dinaverse/jarvis-homelab)** (private, self-hosted AI assistant: Proxmox + LXC + Ollama + Phi-3.5, a Tailscale mesh, and a custom J.A.R.V.I.S. HUD front end)
 
 ### Security & Automation
 - **[cybersecurity-lab-automation](https://github.com/Dinaverse/cybersecurity-lab-automation)** — Security agents, MCP Bridge, autonomous monitoring
