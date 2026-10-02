@@ -1,6 +1,6 @@
 # 🌐 Welcome to the Dinaverse
 
-> *Architecting sovereign, high-performance local infrastructure through hardware revalorisation and hardened systems engineering.*
+> *A cybersecurity and infrastructure student architecting a sovereign, high-performance home lab through hardware revalorisation and hands-on systems engineering.*
 
 I approach technology with a research-and-development mindset. I leverage open-source documentation, technical whitepapers, and hands-on lab environments to master complex systems from scratch.
 
